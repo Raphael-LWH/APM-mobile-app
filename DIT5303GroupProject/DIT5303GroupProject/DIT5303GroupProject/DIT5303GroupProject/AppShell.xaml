@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:DIT5303GroupProject.Views"
+       xmlns:sys="clr-namespace:System;assembly=netstandard"
+       Title="DIT5303GroupProject"
+       x:Class="DIT5303GroupProject.AppShell">
+
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" />
+            <Style Class="ShellItemLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+            <Style Class="ShellItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP=Transparent, iOS=White}" />
+                                    <Setter TargetName="ShellItemLabel" Property="Label.TextColor" Value="{StaticResource Primary}" />
+
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="150">
+            <Image Source="application_20160922_9uBqz_2.png" Aspect="AspectFill" HeightRequest="100" HorizontalOptions="FillAndExpand" />
+            <!--<Label Text="APM Plaza" TextColor="BlanchedAlmond" FontSize="48" HorizontalOptions="Center"
+                   VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />-->
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <ShellItem Title="Home" Icon="home_house_32.png">
+        <ShellContent Route="Main Page" ContentTemplate="{DataTemplate local:MainPage}" />
+    </ShellItem>
+    <ShellItem Title="Account" Icon="account_01.png" x:Name="LoginTitle">
+        <ShellContent Route="Account" ContentTemplate="{DataTemplate local:Login}" x:Name="LoginClick" />
+    </ShellItem>
+    <ShellItem Title="What's News" Icon="news_newspaper_paper_press_32.png">
+        <ShellContent Route="What's News" ContentTemplate="{DataTemplate local:NewsPage1}" />
+    </ShellItem>
+    <ShellItem Title="Special Offer" Icon="discount_label_shopping_32.png">
+        <ShellContent Route="Special Offer" ContentTemplate="{DataTemplate local:CouponPage1}" />
+    </ShellItem>
+    <ShellItem Title="Shop List" Icon="shop_store_32.png">
+        <ShellContent Route="Shop List" ContentTemplate="{DataTemplate local:ShopListPage}" />
+    </ShellItem>
+    <ShellItem Title="Restaurant List" Icon="restaurant_01.png">
+        <ShellContent Route="Restaurant List" ContentTemplate="{DataTemplate local:RestaurantPage}" />
+    </ShellItem>
+    <ShellItem Title="Contect Us" Icon="Checklist_01.png">
+        <ShellContent Route="Contect Us" ContentTemplate="{DataTemplate local:ContectUsPage}" />
+    </ShellItem>
+     <ShellItem Title="Bookig List" Icon="shop_store_32.png">
+        <ShellContent Route="Booking List" ContentTemplate="{DataTemplate local:BookingPage}" />
+    </ShellItem>
+   
+
+
+
+    <Shell.FlyoutFooterTemplate>
+        <DataTemplate>
+            <StackLayout>
+                <Label Text="Welcome to use APM Plaza App!"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+                <Label Text="{Binding Source={x:Static sys:DateTime.Now}, StringFormat='{0:MMMM dd, yyyy}'}"
+                       TextColor="Black"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+        </DataTemplate>
+    </Shell.FlyoutFooterTemplate>
+
+
+</Shell>
+    
+    

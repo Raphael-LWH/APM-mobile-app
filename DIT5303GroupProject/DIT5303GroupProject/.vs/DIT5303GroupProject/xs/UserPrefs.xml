@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{3166E95E-C157-49C0-B2C4-99626C66EE3B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DIT5303GroupProject/DIT5303GroupProject/Views/Login.xaml.cs">
+    <Files>
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/Views/Login.xaml" Line="61" Column="181" />
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/Views/Login.xaml.cs" Line="36" Column="11" />
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/ViewModels/LoginViewModel.cs" Line="102" Column="8" />
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/Views/RestaurantInfor.xaml.cs" Line="67" Column="109" />
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/Views/BookingPage.xaml" Line="1" Column="1" />
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/Views/BookingPage.xaml.cs" Line="27" Column="16" />
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/Models/Product.cs" Line="1" Column="1" />
+      <File FileName="DIT5303GroupProject/DIT5303GroupProject/Models/Loginned.cs" Line="6" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DIT5303GroupProject" expanded="True">
+            <Node name="DIT5303GroupProject" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="BookingPage.xaml" expanded="True" />
+                <Node name="Login.xaml" expanded="True">
+                  <Node name="Login.xaml.cs" selected="True" />
+                </Node>
+                <Node name="RestaurantInfor.xaml" expanded="True" />
+                <Node name="RestaurantPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DIT5303GroupProject.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DIT5303GroupProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2FD33A9A-DEA6-4709-BF5B-8824361F92ED" />
+  <MonoDevelop.Ide.ItemProperties.DIT5303GroupProject.Android PreferredExecutionTarget="Android.pixel_2_nougat_7_1_-_api_25" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

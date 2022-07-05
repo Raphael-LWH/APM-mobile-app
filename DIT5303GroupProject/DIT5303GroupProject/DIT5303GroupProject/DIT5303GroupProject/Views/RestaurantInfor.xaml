@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIT5303GroupProject.Views.RestaurantInfor">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#b7dde3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <StackLayout Grid.Row="1"  Margin="30, 15, 30, 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                   
+                </Grid.RowDefinitions>
+        
+
+                <Image Grid.Row="0"  x:Name="Pic" HeightRequest="160" HorizontalOptions="Center" VerticalOptions="Center" />
+                <Label Grid.Row="1"  x:Name="Title" TextColor="Black"  FontSize="32" HorizontalOptions="CenterAndExpand" />
+                <Label Grid.Row="2"  x:Name="Detail" FontSize="20" />
+            </Grid>
+        </StackLayout>
+        <Frame Grid.Row="2"  BorderColor="Gray" CornerRadius="10" Padding="10" Margin="30, 15, 30, 10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                   
+                </Grid.RowDefinitions>
+                
+
+                <Grid  Grid.Row="0"  >
+                    <Label TextColor="Black"  FontSize="25" Text="Booking Table" HorizontalOptions="Center"/>
+                </Grid>
+                <Entry Grid.Row="1"  Placeholder="Number of Customer" Keyboard="Numeric" x:Name="Number" FontSize="30" />
+                <Entry Grid.Row="2" x:Name="Tel" Placeholder="Tel Contact" Keyboard="Telephone" FontSize="30" />
+                <Button Grid.Row="3"  Text="Confirm" BackgroundColor="#3897f0" TextColor="White" Clicked="Button_Clicked"  FontSize="Title" VerticalOptions="EndAndExpand"/>
+            </Grid>
+        </Frame>
+    </Grid>
+
+</ContentPage>

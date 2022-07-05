@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DIT5303GroupProject.Views.BookingPage">
+    <StackLayout Margin="10" >  <CollectionView ItemsSource="{Binding Product}" EmptyView="No Booking Yet!!">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Margin="10">
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding Date}"/>
+                          <Label Text="{Binding Number,StringFormat='Number of Customer: {0:F0}'}"/>
+                          <Label Text="{Binding Tel,StringFormat='Tel: {0:F0}'}"/>
+                        <Label HeightRequest="1" BackgroundColor="#e3e3e3" Margin="0,5,0,0"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        </StackLayout>
+</ContentPage>

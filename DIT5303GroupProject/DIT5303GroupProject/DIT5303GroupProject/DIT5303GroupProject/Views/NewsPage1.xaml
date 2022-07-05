@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIT5303GroupProject.Views.NewsPage1"
+             Title="APM Plaza">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#b7dde3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="1" Grid.Column="0" Margin="30,15, 30, 0">
+            <Label Text="What's News" FontSize="32" TextColor="#6BACBD" HorizontalOptions="Center"/>
+        </Grid>
+
+        <ScrollView Grid.Row="2" Grid.Column="0" Margin="30, 30, 30, 30">
+            <Grid HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!--News 01-->
+                <Frame Grid.Row="0" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="5 Hours Free Parking" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="1"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 02-->
+                <Frame Grid.Row="1" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Digital Sportcation Hub" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="2"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 03-->
+                <Frame Grid.Row="2" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Beauty Offers" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="3"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 04-->
+                <Frame Grid.Row="3" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Dining Rewards with Octopus card" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="4"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 05-->
+                <Frame Grid.Row="4" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Winter Rewards" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="5"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 06-->
+                <Frame Grid.Row="5" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Member Exclusive Offer" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="6"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>
+    

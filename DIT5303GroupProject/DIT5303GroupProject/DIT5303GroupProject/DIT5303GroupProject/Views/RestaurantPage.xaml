@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIT5303GroupProject.Views.RestaurantPage"
+             Title="APM Plaza">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#b7dde3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Margin="30,15, 30, 0">
+            <Label Text="Restaurant List" FontSize="32" TextColor="#6BACBD" HorizontalOptions="Center"/>
+        </Grid>
+
+        <!--Fila of Shop List-->
+        <ScrollView Grid.Row="1" Margin="30, 20, 30, 30">
+            <Grid VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!--fila 1.1 to 1.2-->
+                <StackLayout Grid.Column="0" Grid.Row="0" BackgroundColor="#b7dde3" Padding="10">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20181109_oJKvo.jpg" HorizontalOptions="Center" HeightRequest="200" Margin="0, 10, 0, 0" />
+                        <Label x:Name="name" Text="Pizza Hut" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="1"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="0" BackgroundColor="#b7dde3" Padding="10">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20210204_xgO6y.jpeg" HorizontalOptions="Center" HeightRequest="200" Margin="0, 10, 0, 0" />
+                        <Label Text="HATTRNDO" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="2"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+
+                <!--fila 1.1 to 1.2-->
+                <StackLayout Grid.Column="0" Grid.Row="1" BackgroundColor="#b7dde3" Padding="10">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20160929_1XlnF.JPG" HorizontalOptions="Center" HeightRequest="200" Margin="0, 10, 0, 0" />
+                        <Label Text="Chao Inn" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="3"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="1" BackgroundColor="#b7dde3" Padding="10">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20170929_k284l.JPG" HorizontalOptions="Center" HeightRequest="200" Margin="0, 10, 0, 0" />
+                        <Label Text="Kanzan Menya" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="4"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+                
+                <!--fila 1.1 to 1.2-->
+                <StackLayout Grid.Column="0" Grid.Row="2" BackgroundColor="#b7dde3" Padding="10">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20211021_0YBYE.jpg" HorizontalOptions="Center" HeightRequest="200" Margin="0, 10, 0, 0" />
+                        <Label Text="Meet Fresh" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="5"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="2" BackgroundColor="#b7dde3" Padding="10">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20190611_8fQvT.JPG" HorizontalOptions="Center" HeightRequest="200" Margin="0, 10, 0, 0" />
+                        <Label Text="Tsukada Nojo" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="6"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

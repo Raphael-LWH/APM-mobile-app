@@ -1,0 +1,96 @@
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/DIT5303GroupProject.iOS.exe
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/DIT5303GroupProject.iOS.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/CommonServiceLocator.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Extras.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Extras.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Platform.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/DIT5303GroupProject.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/DIT5303GroupProject.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/DIT5303GroupProject.iOS.csproj.AssemblyReference.cache
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/DIT5303GroupProject.iOS.csproj.CoreCompileInputs.cache
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/DIT5303GroupProject.iOS.csproj.CopyComplete
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/DIT5303GroupProject.iOS.exe
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/DIT5303GroupProject.iOS.pdb
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Firebase.Auth.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/Firebase.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/LiteDB.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/bin/iPhoneSimulator/Debug/System.Reactive.dll
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/actool/_PartialAppManifest.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/actool/_BundleResourceWithLogicalName.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/actool/_ProcessedImageAssetsPath.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/ibtool/_BundleResourceWithLogicalName.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/coremlc/_PartialAppManifest.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/coremlc/_BundleResourceWithLogicalName.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/_ProcessedBundleResourcesPath.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/_ProcessedContentPath.items
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/icon_about.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/icon_about@2x.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/icon_about@3x.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/icon_feed.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/icon_feed@2x.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/icon_feed@3x.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/xamarin_logo.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/xamarin_logo@2x.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/xamarin_logo@3x.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/news_newspaper_paper_press_32.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/shop_store_32.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/contact1.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/contact2.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/contact3.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/contact4.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/contact5.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/discount_label_shopping_32.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/home_house_32.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/application_20160922_9uBqz_2.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/restaurant_01.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/account_01.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/Checklist_01.png
+/Users/moksaihin/Downloads/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject/DIT5303GroupProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 8-15.0/optimized/

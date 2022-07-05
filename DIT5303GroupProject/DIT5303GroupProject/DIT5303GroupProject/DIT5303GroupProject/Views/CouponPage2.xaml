@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIT5303GroupProject.Views.CouponPage2">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#b7dde3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="400"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Margin="30,15, 30, 0">
+            <Image x:Name="Pic" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
+
+        <StackLayout Grid.Row="1" Grid.Column="0" Margin="30, 15, 30, 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" x:Name="Title" TextColor="Black"  FontSize="32" HorizontalOptions="CenterAndExpand"/>
+                <Label Grid.Row="2" Grid.Column="0" x:Name="Time" FontSize="13" HorizontalTextAlignment="Center"/>
+                <Label Grid.Row="3" Grid.Column="0" x:Name="Detail" FontSize="13" HorizontalTextAlignment="Center"/>
+            </Grid>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DIT5303GroupProject.Views.RegisterPage">
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Row="1" Grid.Column="0" Margin="20,30,20,0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid  Grid.Row="1" Grid.Column="0" >
+                <Image Source="https://www.hkapm.com.hk/lib/img/apm/header/apm.png" HeightRequest="75" VerticalOptions="CenterAndExpand"/>
+            </Grid>
+            <Entry
+                Grid.Row="3" Grid.Column="0"
+                    Placeholder="Email"
+                    Keyboard="Email"
+                    MaxLength="25"
+                    
+                    Text="{Binding EmailTxt, Mode=TwoWay}"
+                   x:Name="Email"
+                    FontSize="{OnPlatform Android=15,iOS=18}" />
+
+
+            <Entry
+                 Grid.Row="4" Grid.Column="0"
+                    Placeholder="Password"
+                    MaxLength="25"
+                    IsPassword="True"
+                     Text="{Binding PasswordTxt, Mode=TwoWay}"
+                    FontSize="{OnPlatform Android=15,iOS=18}"
+                   x:Name="Password"
+                   
+                    
+                    />
+            <Button Grid.Row="5" Grid.Column="0" Text="Create Account" BackgroundColor="#3897f0" TextColor="White" Command="{Binding RegisterCommand}" HeightRequest="50" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Start" />
+           
+        </Grid>
+        
+        
+        <StackLayout Grid.Row="2" Grid.Column="0">
+            <Label HeightRequest="1" BackgroundColor="#e3e3e3"/>
+            <Label Text="Login/SignUp to reivce discount!" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIT5303GroupProject.Views.CouponPage1"
+             Title="APM Plaza">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#b7dde3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Margin="30,15, 30, 0">
+            <Label Text="Special Offer" FontSize="32" TextColor="#6BACBD" HorizontalOptions="Center"/>
+        </Grid>
+
+        <ScrollView Grid.Row="1" Grid.Column="0" Margin="30, 30, 30, 30">
+            <Grid HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!--News 01-->
+                <Frame Grid.Row="0" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="SaSa HK$20 Cash Coupon" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="1"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 02-->
+                <Frame Grid.Row="1" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Uniqlo HK$30 off" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="2"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 03-->
+                <Frame Grid.Row="2" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Catalog 5% off on regular priced items" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="3"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 04-->
+                <Frame Grid.Row="3" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Shu Uemura Brow Designer service at special price" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="4"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 05-->
+                <Frame Grid.Row="4" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Pizza Hut A complimentary snack upon any spending" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="5"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 06-->
+                <Frame Grid.Row="5" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Doughnut 10% off upon spending of HK$500 on regular priced items" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="6"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <!--News 07-->
+                <Frame Grid.Row="6" Grid.Column="0" CornerRadius="7" BorderColor="Gray">
+                    <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Chow Tai Fook 10% off on selected regular-priced jewellery items" FontSize="16"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" CommandParameter="7"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIT5303GroupProject.Views.ShopListPage"
+             Title="APM Plaza">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#b7dde3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid BackgroundColor="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="425"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Margin="30,15, 30, 0">
+            <Label Text="Shop List" FontSize="32" TextColor="#6BACBD" HorizontalOptions="Center"/>
+        </Grid>
+
+        <!--Fila of Shop List-->
+        <ScrollView Grid.Row="1" Margin="30, 20, 30, 30">
+            <Grid VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="147" />
+                    <RowDefinition Height="147" />
+                    <RowDefinition Height="147" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="147" />
+                    <ColumnDefinition Width="147" />
+                </Grid.ColumnDefinitions>
+
+                <!--fila 1.1 to 1.2-->
+                <StackLayout Grid.Column="0" Grid.Row="0" BackgroundColor="#b7dde3">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20160929_UWAuz.jpg" HorizontalOptions="Center" HeightRequest="70" Margin="0, 10, 0, 0" />
+                        <Label Text="Imperial Bird's Nest" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="1"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="0" BackgroundColor="#b7dde3">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20161004_TXON2.jpg" HorizontalOptions="Center" HeightRequest="70" Margin="0, 10, 0, 0" />
+                        <Label Text="YATA Supermarket" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="2"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+
+                <!--fila 2.1 to 2.2-->
+                <StackLayout Grid.Column="0" Grid.Row="1" BackgroundColor="#b7dde3">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20191025_Dy6jU.jpg" HorizontalOptions="Center" HeightRequest="70" Margin="0, 10, 0, 0" />
+                        <Label Text="Twinkle Baker Décor" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="3"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="1" BackgroundColor="#b7dde3">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20200325_TZvI3.jpg" HorizontalOptions="Center" HeightRequest="70" Margin="0, 10, 0, 0" />
+                        <Label Text="LUCULLUS" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="4"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+
+                <!--fila 3.1 to 3.2-->
+                <StackLayout Grid.Column="0" Grid.Row="2" BackgroundColor="#b7dde3">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20161007_pjmXj.jpg" HorizontalOptions="Center" HeightRequest="70" Margin="0, 10, 0, 0" />
+                        <Label Text="Catalog" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="5"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="2" BackgroundColor="#b7dde3">
+                    <StackLayout>
+                        <Image Source="https://www.hkapm.com.hk/cccms/lib/uploads/system/application_20161007_hKfBA.jpg" HorizontalOptions="Center" HeightRequest="70" Margin="0, 10, 0, 0" />
+                        <Label Text="Chow Tai Fook" FontSize="16" TextColor="Black" HorizontalOptions="Center"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_tapped" CommandParameter="6"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </StackLayout>
+
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

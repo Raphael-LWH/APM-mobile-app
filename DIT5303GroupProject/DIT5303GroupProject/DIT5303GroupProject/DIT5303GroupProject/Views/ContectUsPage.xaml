@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DIT5303GroupProject.Views.ContectUsPage"
+             Title="APM Plaza">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#b7dde3</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid BackgroundColor="White">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="1" Grid.Column="0" Margin="30,15, 30, 0">
+                <Label Text="Contect Us" FontSize="32" TextColor="#6BACBD" HorizontalOptions="Center" />
+            </Grid>
+
+            <Grid Grid.Row="2" Grid.Column="0" Margin="30, 015, 30, 30">
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0"/>
+                        <RowDefinition Height="65"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="105"/>
+                        <RowDefinition Height="90"/>
+                        <RowDefinition Height="90"/>
+                        <RowDefinition Height="90"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--Address-->
+                    <StackLayout Grid.Row="1" Grid.Column="0" Margin="0,0,0,0">
+                        <Frame BackgroundColor="#b7dde3" CornerRadius="10" Padding="8" HeightRequest="20">
+                            <Label HorizontalOptions="Start" Text="Address" FontSize="16" TextColor="Black" />
+                        </Frame>
+                        <Label Text="NO. 418 Kwun Tong Road, Kwun Tong, Kowloon&#x0a;(MTR - Kwun Tong Line Kwun Tong Station Exit A2)" FontSize="12" />
+                    </StackLayout>
+
+                    <!--Leasing-->
+                    <StackLayout Grid.Row="2" Grid.Column="0" Margin="0,10,0,0">
+                        <Frame BackgroundColor="#b7dde3" CornerRadius="10" Padding="8" HeightRequest="20">
+                            <Label HorizontalOptions="Start" Text="Leasing" FontSize="16" TextColor="Black"/>
+                        </Frame>
+                        <Label Text="Tel: 2828 5128" FontSize="12"/>
+                        <Label Text="E-mal: leasing@shkp.com" FontSize="12"/>
+                    </StackLayout>
+
+                    <!--Promotion-->
+                    <StackLayout Grid.Row="3" Grid.Column="0" Margin="0,10,0,0">
+                        <Frame BackgroundColor="#b7dde3" CornerRadius="10" Padding="8" HeightRequest="20">
+                            <Label HorizontalOptions="Start" Text="Promotion" FontSize="16" TextColor="Black"/>
+                        </Frame>
+                        <Label Text="Tel: 2267 0883" FontSize="12"/>
+                        <Label Text="Fax: 2267 0055" FontSize="12"/>
+                        <Label Text="E-mal: apmpromo@shkp.com" FontSize="12"/>
+                    </StackLayout>
+
+                    <!--Management-->
+                    <StackLayout Grid.Row="4" Grid.Column="0" Margin="0,10,0,0">
+                        <Frame BackgroundColor="#b7dde3" CornerRadius="10" Padding="8" HeightRequest="20">
+                            <Label HorizontalOptions="Start" Text="Management" FontSize="16" TextColor="Black"/>
+                        </Frame>
+                        <Label Text="Tel: 2267 0500" FontSize="12"/>
+                        <Label Text="Fax: 2267 0055" FontSize="12"/>
+                        <Label Text="E-mal: apm@kaishing.com.hk" FontSize="12"/>
+                    </StackLayout>
+
+                </Grid>
+            </Grid>
+        </Grid>
+</ContentPage>
